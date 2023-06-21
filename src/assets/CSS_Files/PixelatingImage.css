@@ -1,0 +1,16 @@
+/* styles.css */
+@keyframes pixelate {
+    0% {
+      filter: none;
+      opacity: 1;
+    }
+    100% {
+      filter: url(#pixelate);
+      opacity: 0;
+    }
+  }
+  
+  .pixelated-image {
+    animation: pixelate 5s infinite;
+  }
+  
