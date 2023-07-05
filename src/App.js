@@ -1,17 +1,27 @@
 
 import './App.css';
 import PixelatingImage from './Components/LandingPageComponents/PixelatingImage';
+import Destination from './Components/NavbarComponents/Destination';
+
 import SwiperCarousel from './Components/SwiperCarousel/SwiperCarousel';
+import Navbar from './Pages/Navbar';
+import Test from './Pages/Test';
+
+
+
+
 
 function App() {
   return (
     <div className="App" >
 
-      <div style={{ display: "flex", maxWidth: "30%" }}> <PixelatingImage /></div>
+      {/* <PixelatingImage /> */}
 
+      <Navbar />
 
       <SwiperCarousel />
 
+      <Test />
     </div>
   );
 }

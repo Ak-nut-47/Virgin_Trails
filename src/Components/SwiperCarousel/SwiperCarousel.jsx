@@ -9,15 +9,12 @@ import swiper2 from "../../assets/SliderImages/swiper2.jpeg";
 import swiper3 from "../../assets/SliderImages/swiper3.jpeg";
 import swiper4 from "../../assets/SliderImages/swiper4.jpeg";
 import swiper5 from "../../assets/SliderImages/swiper5.jpeg";
-import swiper6 from "../../assets/SliderImages/swiper6.jpeg";
 import { EffectCoverflow, Pagination } from "swiper";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { Box, IconButton } from "@chakra-ui/react";
 import SwiperNavButtons from "./SwiperNavButtons";
 
 const SwiperCarousel = () => {
   return (
-    <div className="slider_container">
+    <div className="slider_container" id="slider_container">
       <Swiper
         effect="coverflow"
         grabCursor={true}
